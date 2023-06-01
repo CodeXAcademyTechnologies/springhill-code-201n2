@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(183, 183, 183);
+}
+
+h1 {
+  color: gold;
+  background-color: gray;
+}
+
+#header2 {
+  color: gold;
+  background-color: grey;
+}
+
+.listItems {
+
+  color: gold;
+  background-color: grey;
+}
+
+main>ul {
+  border: solid 1px red;
+}

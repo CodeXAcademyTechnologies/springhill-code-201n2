@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <title>Class 1 demo code</title>
+  <style>
+    li {
+      color: red;
+    }
+  </style>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>Hello world</h1>
+      <ul id="linkList">
+        <li class="listItems"><a href="/">link 1</a></li>
+        <li class="listItems"><a href="/">link 2</a></li>
+        <li class="listItems"><a href="/">link 3</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2 id="header2">let talk about semantic elements</h2>
+    <p class="listItems">this is a <b>paragraph</b> tag and paragraphs are used to hold a body of text</p>
+    <div>hello this is a div</div>
+
+    <ul>
+      <li style="color: green">List elements organize lists of information with either unordered or ordered lists</li>
+      <li>List items are used to store the information in a list</li>
+    </ul>
+    <script>
+      let user = prompt('What is your name?');
+      console.log('The user\'s name is ' + user + 'hello there ' + user + 'how are you');
+      console.log(`The user's name is ${user} hello there ${user}`);
+
+      let color = prompt('what is your favorite color')
+      console.log(`your favorite color is ${color}`)
+      function userAnswer() {
+        document.write(`Hi there ${user} I can see from your answer your favorite color is ${color}`)
+
+      }
+      'Hi there Elias I can see from your answer your favorite color is green'
+    </script>
+    <h3>
+      <script>userAnswer()</script>
+    </h3>
+  </main>
+
+  <footer>this is the footer</footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+h1 {
+  font-family: Helvetica
+}
+
+p {
+  font-size: 12px;
+  color: rgb(2, 2, 2);
+}
+
+section p.more-content {
+  background-color: #FF0000;
+}
+
+.more-content {
+  background-color: #0000FF;
+}
+
+#something-else {
+  border: 5px dashed #00FF00;
+}

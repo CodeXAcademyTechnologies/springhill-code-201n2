@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Css positioning demo</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>CSS positioning</h1>
+  <p>We can move elements by declaring their left right bottom or top position. but css position properties such as
+    static, relative, absolute, fixed, will determine how the rules are interpolated</p>
+  <section>
+    <p>This section with a red border uses the default positioning values "postion: static" see what happens when you
+      change the positioning from static to absolute and then to relative </p>
+    <article id="one">
+      <h2>Position Relative</h2>
+      <p>
+
+        it will display exactly the same as before. until you assign left right bottom or top properties. this will
+        assign
+        positions relative to their original position with thier parent element.
+      </p>
+    </article>
+    <article id="two">
+      <h2>Position Absolute</h2>
+      <p>
+        this element will display relative to its most recent parent that has positioning set. if its has no positioned
+        parent it will display relative to the page window.
+      </p>
+    </article>
+    <article id="four">
+      <h2>Help me pls!</h2>
+      <p>
+        this element is also absolutely positioned. however I am being hidden by the fixed positioner.
+      </p>
+    </article>
+    <article id="three">
+      <h2>Position fixed</h2>
+      <p>
+        this will position the element relative to its view port. it will stay in the same place even when the page is
+        scrolled. it can block other content.
+      </p>
+    </article>
+  </section>
+</body>
+
+</html>

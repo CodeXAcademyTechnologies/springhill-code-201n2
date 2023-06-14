@@ -45,3 +45,32 @@ gif: only supports up to 256 different as opposed to a jpeg that supports around
 its important to understand which image type is best to use when displaying content to a user. we want to try to display our content usually in the most efficient and highest quality manner.
 
 ## git branching, solving merge conflict and deployment
+
+### Why?
+
+collaborating with other developers on a project
+keeping our specific work saved.
+fixing a bug.
+
+you have different branches that can be push to your cloud instance but the may not be merged into your deployed instance
+
+a reason to use branching is that we can better timeline management. and allows us to view errors and code that was written on other branches.
+
+### What?
+
+branching off of the main repository onto a seperate branch in order to push code that does not immediately merge into your main branch.
+
+### How?
+
+`git checkout -b <branch-name>`
+creates a new branch and then names the branch
+
+`git checkout <branch-name>`
+changes to a different branch
+
+`git push origin <branch-name>`
+pushes up the branch that you are working on
+
+`git pull origin main`
+
+always want to keep your local main up to date with your cloud instance after changes have been made.

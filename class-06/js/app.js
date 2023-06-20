@@ -82,15 +82,15 @@ article.appendChild(img);
 // label.setAttribute('for', 'goodWithKids');
 // label.innerText = 'Good with kids';
 // input.appendChild(label);
-const seattle = {
-  location: 'Seattle',
-  maxCust: 65,
-  minCust: 23,
-  avgSale: 6.3
-}
-const Tokyo = {
-  location: 'Tokyo'
-  maxCust: 24,
-  minCust: 3,
-  avgSale: 1.2
-}
+// const seattle = {
+//   location: 'Seattle',
+//   maxCust: 65,
+//   minCust: 23,
+//   avgSale: 6.3
+// }
+// const Tokyo = {
+//   location: 'Tokyo'
+//   maxCust: 24,
+//   minCust: 3,
+//   avgSale: 1.2
+// }

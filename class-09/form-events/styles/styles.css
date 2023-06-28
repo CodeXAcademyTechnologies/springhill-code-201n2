@@ -1,0 +1,47 @@
+article {
+  position: relative;
+}
+
+.kittenProfileContainer {
+  border: 1px solid red;
+  width: 30%;
+  background-color: rgb(164, 165, 165);
+  padding: 3px;
+  text-align: center;
+
+}
+
+.kittenProfileContainer ul {
+  height: 100px;
+}
+
+.kittenProfileContainer img {
+  width: 60%;
+  margin-top: 10px;
+  /* height: 50%; */
+}
+
+#kittenProfiles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+table {
+  position: relative;
+  margin: 0;
+  border-spacing: 0px;
+  border-collapse: collapse;
+
+}
+
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 255, 0.198);
+}
+
+th,
+td {
+  border: 1px solid black;
+}

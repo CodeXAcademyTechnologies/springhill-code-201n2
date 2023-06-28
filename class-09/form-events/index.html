@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adopt a Kitten</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Adopt a Kitten</h1>
+  </header>
+  <main>
+    <h2>Add a Kitten</h2>
+    <!-- Form data needed
+      name
+      interests
+      isGoodWithKids
+      isGoodWithCats
+      isGoodWithDogs
+    -->
+    <form id="addKittenForm">
+
+
+      <fieldset>
+        <legend>Basic Information</legend>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <label for="interests">Interests</label>
+        <input type="text" name="interests" id="interests">
+        <span>List interests separated by comma</span>
+      </fieldset>
+
+
+
+      <fieldset>
+        <legend>Placement Information</legend>
+        <p>Can be placed with...</p>
+        <label for="kids">
+          <input type="checkbox" name="isGoodWithKids" id="kids">
+          Kids
+        </label>
+        <label for="dogs">
+          <input type="checkbox" name="isGoodWithDogs" id="dogs">
+          Dogs
+        </label>
+        <label for="cats">
+          <input type="checkbox" name="isGoodWithCats" id="cats">
+          Cats
+        </label>
+        <label for=""></label>
+        <input type="text">
+      </fieldset>
+
+      <button type="submit">Submit</button>
+    </form>
+    <h2>Kittens available for adoption:</h2>
+    <div id="kittenProfiles">
+
+    </div>
+
+  </main>
+  <footer>
+
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

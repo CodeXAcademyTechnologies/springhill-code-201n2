@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homemade slack app</title>
+</head>
+
+<body>
+  <main>
+    <h1>Note your possible users are: Benton, Dan, Jonny, Katie, Sam, Nick, and Otis</h1>
+    <form id="chat-form">
+      <fieldset>
+        <legend>Chat Submission Form</legend>
+        <label for="who">Who:</label>
+        <input type="text" name="who" id="who">
+        <label for="says">Comment:</label>
+        <input type="text" name="says" id="says" size="30">
+        <button id="comment-button" type="submit">Create new comment!</button>
+      </fieldset>
+    </form>
+
+    <ul id="chat-list"></ul>
+  </main>
+  <script src="chat.js"></script>
+</body>
+
+</html>

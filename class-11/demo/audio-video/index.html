@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Video</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Audio Video Elements</h1>
+  </header>
+  <main class="grid">
+    <section>
+      <h2>Audio</h2>
+      <audio id="leeves" src="assets/audio/levees.m4a" muted controls autoplay volume>
+      </audio>
+      <h3>Common attributes to control playback of audio</h3>
+      <ul>
+        <li>Autoplay: boolean</li>
+        <li>Controls: provides playback controls to the user</li>
+        <li>loop: boolean. plays the sound over and over and over and over and over</li>
+        <li>muted: boolean. can be used to mute audio on page load</li>
+        <li>src: link to the audio embeds the audio to the source code in HTML</li>
+        <li>Volume: range of 0.0 to 1.0 silent to loudest</li>
+        <button id="randomizer">Click to randomize</button>
+      </ul>
+    </section>
+    <section>
+      <h2>Video</h2>
+      <video id="demi" src="assets/video/demi.mov" width="400" height="220" muted controls></video>
+      <h3>Common attributes of video Elements</h3>
+      <ul>
+        <li>autoplay: boolean to auto play video</li>
+        <li>controls: gives user control of video like playing the video</li>
+        <li>height: set the hight of the vide. must be an absolute value. no percentages</li>
+        <li>muted: boolean: mutes on page load</li>
+        <li>poster: use an alternate image in place of the first frame before playback has initialized</li>
+        <li>src: path to the video to embed into source code</li>
+        <li>volume: range of 0.0 to 1.0 silent to loudest</li>
+        <li>width: may be an absolute value or a percentage</li>
+      </ul>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

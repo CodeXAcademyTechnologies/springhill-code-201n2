@@ -34,6 +34,7 @@ function saveStatsToLocalStorage(dataSet) {
   }
   console.log(typeof productStats, productStats);
   localStorage.productStats = JSON.stringify(productStats);
+  console.log(typeof localStorage.productStats);
 
 }
 saveStatsToLocalStorage(dataSet);

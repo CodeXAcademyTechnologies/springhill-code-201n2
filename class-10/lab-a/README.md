@@ -58,3 +58,9 @@ Refer to the daily class repo for your assets required for this lab as well as a
   - How did this go, overall?
   - What observations or questions do you have about what you've learned so far?
   - How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+
+Where do you start?
+
+so you can start with your frame. 
+take your big problem and break it into smaller problems. 
+what elements will take the most effort or time. what elements are together and can be styled together. what can be broken up into different groups. 

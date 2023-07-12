@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#headerLeft {
+  display: flex;
+  gap: 5px;
+
+}
+
+#headerLeft div {
+  display: flex;
+  flex-direction: column;
+}
+
+#headerRight {
+  display: flex;
+  gap: 5px;
+}
+
+h1,
+p {
+  margin: 0;
+
+}
+
+h1 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}

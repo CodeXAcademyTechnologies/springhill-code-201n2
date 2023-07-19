@@ -6,6 +6,7 @@ For example, if you wanted the driver to write this code:
 
 ```js
 const num = parseInt("2");
+/
 ```
 
 You would say:
@@ -17,19 +18,27 @@ You would say:
 const name = "John";
 ```
 
+Declare a constant variable called name and assign it a value of a string of John
+
 ```js
 console.log( typeof name );
 ```
 
+using the dotnotation access the log method of the console object and for the parameter log the type of name using the typeof keyword.
+
 ```js
 const nums = [1,2,3,4,5];
 ```
+
+Declare a constant variable called nums and assign it a value of an array with elements of 1 through 5.
 
 ```js
 for( const i=1; i<=100; i++ ) {
   console.log(i * i);
 }
 ```
+
+using a for loop declare a constant variable of i and assign it a value of 1. while i is less than or equal to i using dotnotation access the log method of the console object. log the value of i times i. finally increment the value of i by one through the use of the shorthand ++/plus plus operator.
 
 ## Javascript Objects
 
@@ -42,17 +51,25 @@ const john = {
 }
 ```
 
+declare a constant variable called john and set its value to an object literal. assign it properties using key value pairs as follows: first: 'John', last: 'Cokos', lastName: 'Cookoo', age: 50
+
 ```js
 console.log(john.first);
 ```
+
+using dotnotation access the log method of the console object. for the parameter of the log method us dotnotation to access the `first` property of the john object.
 
 ```js
 const keyword = "last";
 ```
 
+declare a constant variable named keyword and assign it a value of a string last
+
 ```js
 console.log(john[keyword]); 
 ```
+
+using dotnotation access the log method of the console object. for the parameter of the log method access the property equal to the keyword variable through the use of bracketnotation in the john object. 
 
 ## Functions
 
@@ -62,9 +79,13 @@ function sayHi(name) {
 }
 ```
 
+declare a function named sayHi with a parameter of name. using dotnotation access the log method of the console object and for the parameter of the log method input a string of `Hi` and the parameter of name/ the parameter of the function.
+
 ```js
 sayHi('Lyndsey');
 ```
+
+invoke the sayHi function and input the argument of 'Lyndsey' to receive a console log of `Hi Lyndsey`
 
 ## Constructors
 
